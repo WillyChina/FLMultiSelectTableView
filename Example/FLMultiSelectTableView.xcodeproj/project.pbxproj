@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C6B6224A1177408D5070BA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4F31909F881F93763F1E2AFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C6B6224A1177408D5070BA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F31909F881F93763F1E2AFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FLMultiSelectTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLMultiSelectTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		A31A87B9704014764E41266C /* Pods-FLMultiSelectTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLMultiSelectTableView_Tests.release.xcconfig"; path = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D9C93B90AA6852533AD88BE3 /* Pods-FLMultiSelectTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLMultiSelectTableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA8962CC50C7D345380ADE5A /* Pods-FLMultiSelectTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLMultiSelectTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-FLMultiSelectTableView_Example/Pods-FLMultiSelectTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7502A472FBA58DD7B721C1A /* FLMultiSelectTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLMultiSelectTableView.podspec; path = ../FLMultiSelectTableView.podspec; sourceTree = "<group>"; };
+		E7502A472FBA58DD7B721C1A /* FLMultiSelectTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLMultiSelectTableView.podspec; path = ../FLMultiSelectTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3D8C885BB33D989D3AF7C84 /* Pods_FLMultiSelectTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLMultiSelectTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				D9C93B90AA6852533AD88BE3 /* Pods-FLMultiSelectTableView_Tests.debug.xcconfig */,
 				A31A87B9704014764E41266C /* Pods-FLMultiSelectTableView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

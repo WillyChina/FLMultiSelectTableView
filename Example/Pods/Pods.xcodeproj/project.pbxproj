@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FE616E5077608AA0EB643D85FE52D5 /* FLMultiSelectTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF23146F1DE6ADEA8F220CB1E5CA439 /* FLMultiSelectTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C4E2FC9C2B038D6F79EBB3D24078B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D000404C21CEE0DEF5661E8CB426A12 /* Pods-FLMultiSelectTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B545590A23D26FE851A5DA4EE22BDD /* Pods-FLMultiSelectTableView_Example-dummy.m */; };
+		973171113BAA2CEF2E2188349710E905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0098FD00288F4633D4C952FBF91D2B8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71292FFA879C244D2BDFE22A1079D7 /* ReplaceMe.m */; };
+		A61A3EC85A864AA0AFBEFA06C3D50734 /* Pods-FLMultiSelectTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112FDE888E8CF3F9CE2FA254A5AE638 /* Pods-FLMultiSelectTableView_Tests-dummy.m */; };
+		A7DD5F78E18C6E6A4A5406ADDEE1ED20 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FC79A6A2ACA6C1D11617BA0A4C73BB /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB6B72CB3A05551F6A23FBEE8EEB3E87 /* Pods-FLMultiSelectTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6B2E34E01C5E9DBA8E3B52649AB947 /* Pods-FLMultiSelectTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCE9C14A2B2BBDCB862577B06BD7B427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DD5CFC7AE12280FE655DFF410EF652F4 /* FLMultiSelectTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43837984EBF7D68680BD62E56E33C574 /* FLMultiSelectTableView-dummy.m */; };
+		F3E7D31D750F0C3844F07439938528B5 /* Pods-FLMultiSelectTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E99FB4273A9B0AF0F174F7768D25808 /* Pods-FLMultiSelectTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD75E4AD3C4A7A6D52C543B9C7D1ECA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B85AE7ECB59461AA980D7376007A174 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52772C6DC0EC5C0C93D3C14728994A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB13E582A1B93640D6916CCF7AF9C679;
+			remoteInfo = "Pods-FLMultiSelectTableView_Example";
+		};
+		8ACB7D17B354E834AFE8B440C9F299A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E332D523C4792D476DBDFB720F556F53;
+			remoteInfo = FLMultiSelectTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F268255DE86984A0E9644A4BCC1EF6 /* FLMultiSelectTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLMultiSelectTableView.debug.xcconfig; sourceTree = "<group>"; };
+		0C71292FFA879C244D2BDFE22A1079D7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FLMultiSelectTableView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0E99FB4273A9B0AF0F174F7768D25808 /* Pods-FLMultiSelectTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLMultiSelectTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		20060645ED7EF4EC3EA483CF6B3C4042 /* Pods-FLMultiSelectTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLMultiSelectTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2112FDE888E8CF3F9CE2FA254A5AE638 /* Pods-FLMultiSelectTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLMultiSelectTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		280742E0964527FF257823915F6E2EBF /* Pods-FLMultiSelectTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLMultiSelectTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3091489994DE6C6C5D4D7264EC029F19 /* Pods-FLMultiSelectTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLMultiSelectTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		36B545590A23D26FE851A5DA4EE22BDD /* Pods-FLMultiSelectTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLMultiSelectTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		43837984EBF7D68680BD62E56E33C574 /* FLMultiSelectTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLMultiSelectTableView-dummy.m"; sourceTree = "<group>"; };
+		5981DFD824E87CD0ADA8FD771737A721 /* Pods-FLMultiSelectTableView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FLMultiSelectTableView_Tests"; path = Pods_FLMultiSelectTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF23146F1DE6ADEA8F220CB1E5CA439 /* FLMultiSelectTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLMultiSelectTableView-umbrella.h"; sourceTree = "<group>"; };
+		68EC375F3AEA012AD69BD584E347613F /* FLMultiSelectTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLMultiSelectTableView-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B85AE7ECB59461AA980D7376007A174 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = FLMultiSelectTableView/Classes/TestViewController.m; sourceTree = "<group>"; };
+		823C49B71044261F36EA530ACF753CB4 /* Pods-FLMultiSelectTableView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FLMultiSelectTableView_Example"; path = Pods_FLMultiSelectTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831530DE9E470995E5EC7CE5CD4961BE /* Pods-FLMultiSelectTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLMultiSelectTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89A43EBAA5033C301F17F07CA7C8C134 /* Pods-FLMultiSelectTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLMultiSelectTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9347C72D75D4DDDFEF94563F113AD590 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9692EECE3B393E87B5F0B367F4EDADBA /* Pods-FLMultiSelectTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLMultiSelectTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		97A86D8EBC4F3CBD2D9CDF37F1108463 /* Pods-FLMultiSelectTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLMultiSelectTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B72E6497FD936C357691E72973B95FC /* Pods-FLMultiSelectTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLMultiSelectTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7975CF0F29F2917F738820E4D83EDAB /* FLMultiSelectTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLMultiSelectTableView-prefix.pch"; sourceTree = "<group>"; };
+		A87EBAD4F20E59343F64C33649D478A6 /* Pods-FLMultiSelectTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLMultiSelectTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		B657224A69EAEE1274C35BC08721381E /* FLMultiSelectTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLMultiSelectTableView.release.xcconfig; sourceTree = "<group>"; };
+		B73C7B75B353552FAFB919D6131B5DBC /* Pods-FLMultiSelectTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLMultiSelectTableView_Example.modulemap"; sourceTree = "<group>"; };
+		B8FC79A6A2ACA6C1D11617BA0A4C73BB /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = FLMultiSelectTableView/Classes/TestViewController.h; sourceTree = "<group>"; };
+		BB9DB1AFE57459345444EDB68882D5B1 /* Pods-FLMultiSelectTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLMultiSelectTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE6B2E34E01C5E9DBA8E3B52649AB947 /* Pods-FLMultiSelectTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLMultiSelectTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5AFAB3EBE147502CA4A6D26765FE71E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB49C72671115A4294850995E0D913F9 /* FLMultiSelectTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLMultiSelectTableView.modulemap; sourceTree = "<group>"; };
+		D6D6C688C062F8C9925E99F8C0E9BF02 /* FLMultiSelectTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLMultiSelectTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D86D0DBA386874B2296359110E82759D /* FLMultiSelectTableView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLMultiSelectTableView; path = FLMultiSelectTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C89EAA46453F41D6C6DE871EC9A12 /* Pods-FLMultiSelectTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLMultiSelectTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E291810DA9423EDE8846C4094AA848DC /* Pods-FLMultiSelectTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLMultiSelectTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008F6A4EEA0FE2D5B25E6791BFB317B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973171113BAA2CEF2E2188349710E905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE61FB60AC45F3624B0E51D55F66D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9C14A2B2BBDCB862577B06BD7B427 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C9263A88154DC91586549AB0E84234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E2FC9C2B038D6F79EBB3D24078B44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143F43558E7F140918F77D99D08125D9 /* Pods-FLMultiSelectTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B73C7B75B353552FAFB919D6131B5DBC /* Pods-FLMultiSelectTableView_Example.modulemap */,
+				BB9DB1AFE57459345444EDB68882D5B1 /* Pods-FLMultiSelectTableView_Example-acknowledgements.markdown */,
+				280742E0964527FF257823915F6E2EBF /* Pods-FLMultiSelectTableView_Example-acknowledgements.plist */,
+				36B545590A23D26FE851A5DA4EE22BDD /* Pods-FLMultiSelectTableView_Example-dummy.m */,
+				9B72E6497FD936C357691E72973B95FC /* Pods-FLMultiSelectTableView_Example-frameworks.sh */,
+				3091489994DE6C6C5D4D7264EC029F19 /* Pods-FLMultiSelectTableView_Example-Info.plist */,
+				BE6B2E34E01C5E9DBA8E3B52649AB947 /* Pods-FLMultiSelectTableView_Example-umbrella.h */,
+				E291810DA9423EDE8846C4094AA848DC /* Pods-FLMultiSelectTableView_Example.debug.xcconfig */,
+				20060645ED7EF4EC3EA483CF6B3C4042 /* Pods-FLMultiSelectTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-FLMultiSelectTableView_Example";
+			path = "Target Support Files/Pods-FLMultiSelectTableView_Example";
+			sourceTree = "<group>";
+		};
+		2529058094785C1910D74171EAA8394F /* FLMultiSelectTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0C71292FFA879C244D2BDFE22A1079D7 /* ReplaceMe.m */,
+				B8FC79A6A2ACA6C1D11617BA0A4C73BB /* TestViewController.h */,
+				7B85AE7ECB59461AA980D7376007A174 /* TestViewController.m */,
+				A00310A88F3F23BB4736F374C8CF6B2D /* Pod */,
+				6DF41958EC384C01F94EA629006B3C01 /* Support Files */,
+			);
+			name = FLMultiSelectTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DF41958EC384C01F94EA629006B3C01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB49C72671115A4294850995E0D913F9 /* FLMultiSelectTableView.modulemap */,
+				43837984EBF7D68680BD62E56E33C574 /* FLMultiSelectTableView-dummy.m */,
+				68EC375F3AEA012AD69BD584E347613F /* FLMultiSelectTableView-Info.plist */,
+				A7975CF0F29F2917F738820E4D83EDAB /* FLMultiSelectTableView-prefix.pch */,
+				5FF23146F1DE6ADEA8F220CB1E5CA439 /* FLMultiSelectTableView-umbrella.h */,
+				05F268255DE86984A0E9644A4BCC1EF6 /* FLMultiSelectTableView.debug.xcconfig */,
+				B657224A69EAEE1274C35BC08721381E /* FLMultiSelectTableView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLMultiSelectTableView";
+			sourceTree = "<group>";
+		};
+		769332D794F1B0DFDB4EAC0635EA6E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86D0DBA386874B2296359110E82759D /* FLMultiSelectTableView */,
+				823C49B71044261F36EA530ACF753CB4 /* Pods-FLMultiSelectTableView_Example */,
+				5981DFD824E87CD0ADA8FD771737A721 /* Pods-FLMultiSelectTableView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C4A09D7448D635D9633B8BCFE97FB9 /* Pods-FLMultiSelectTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9692EECE3B393E87B5F0B367F4EDADBA /* Pods-FLMultiSelectTableView_Tests.modulemap */,
+				89A43EBAA5033C301F17F07CA7C8C134 /* Pods-FLMultiSelectTableView_Tests-acknowledgements.markdown */,
+				97A86D8EBC4F3CBD2D9CDF37F1108463 /* Pods-FLMultiSelectTableView_Tests-acknowledgements.plist */,
+				2112FDE888E8CF3F9CE2FA254A5AE638 /* Pods-FLMultiSelectTableView_Tests-dummy.m */,
+				A87EBAD4F20E59343F64C33649D478A6 /* Pods-FLMultiSelectTableView_Tests-Info.plist */,
+				0E99FB4273A9B0AF0F174F7768D25808 /* Pods-FLMultiSelectTableView_Tests-umbrella.h */,
+				831530DE9E470995E5EC7CE5CD4961BE /* Pods-FLMultiSelectTableView_Tests.debug.xcconfig */,
+				DF3C89EAA46453F41D6C6DE871EC9A12 /* Pods-FLMultiSelectTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLMultiSelectTableView_Tests";
+			path = "Target Support Files/Pods-FLMultiSelectTableView_Tests";
+			sourceTree = "<group>";
+		};
+		910B7857A6FCC64B5414D417E03DD34D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2529058094785C1910D74171EAA8394F /* FLMultiSelectTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A00310A88F3F23BB4736F374C8CF6B2D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6C688C062F8C9925E99F8C0E9BF02 /* FLMultiSelectTableView.podspec */,
+				9347C72D75D4DDDFEF94563F113AD590 /* LICENSE */,
+				C5AFAB3EBE147502CA4A6D26765FE71E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				910B7857A6FCC64B5414D417E03DD34D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				769332D794F1B0DFDB4EAC0635EA6E37 /* Products */,
+				E03B130F39E59691379B9EA6AE941F7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03B130F39E59691379B9EA6AE941F7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				143F43558E7F140918F77D99D08125D9 /* Pods-FLMultiSelectTableView_Example */,
+				88C4A09D7448D635D9633B8BCFE97FB9 /* Pods-FLMultiSelectTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A44A12AC280336C7AF641F7AA1CBE0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE616E5077608AA0EB643D85FE52D5 /* FLMultiSelectTableView-umbrella.h in Headers */,
+				A7DD5F78E18C6E6A4A5406ADDEE1ED20 /* TestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172FB9CF96E12A9DA2A5728A4920FFAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E7D31D750F0C3844F07439938528B5 /* Pods-FLMultiSelectTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD29DF017BB0A83D9F3B334938A0D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B72CB3A05551F6A23FBEE8EEB3E87 /* Pods-FLMultiSelectTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7702C861F31FF1BCCB870936086BF81C /* Pods-FLMultiSelectTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2577D26DFA1DACA0D6E6CEAD666202E /* Build configuration list for PBXNativeTarget "Pods-FLMultiSelectTableView_Tests" */;
+			buildPhases = (
+				172FB9CF96E12A9DA2A5728A4920FFAF /* Headers */,
+				B85FB24225D80A1BFAE9E0F073E776BB /* Sources */,
+				2DE61FB60AC45F3624B0E51D55F66D3E /* Frameworks */,
+				90B393EDD3A68FD437554C8CC05DAAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74A4A4E3E55C072184140BB6750DA78 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLMultiSelectTableView_Tests";
+			productName = Pods_FLMultiSelectTableView_Tests;
+			productReference = 5981DFD824E87CD0ADA8FD771737A721 /* Pods-FLMultiSelectTableView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB13E582A1B93640D6916CCF7AF9C679 /* Pods-FLMultiSelectTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9B8AAB3519E5E806D6C113E55F9830 /* Build configuration list for PBXNativeTarget "Pods-FLMultiSelectTableView_Example" */;
+			buildPhases = (
+				9CD29DF017BB0A83D9F3B334938A0D21 /* Headers */,
+				EB2C774BF4482E4EFCA225AA1E3989D3 /* Sources */,
+				008F6A4EEA0FE2D5B25E6791BFB317B2 /* Frameworks */,
+				2A3B54A73CBB40653BF2A753FD7FBE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2D031555A10450200E72B6FD85A9D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLMultiSelectTableView_Example";
+			productName = Pods_FLMultiSelectTableView_Example;
+			productReference = 823C49B71044261F36EA530ACF753CB4 /* Pods-FLMultiSelectTableView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E332D523C4792D476DBDFB720F556F53 /* FLMultiSelectTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D486902A4E1DB1B581BF1C67BD18E27F /* Build configuration list for PBXNativeTarget "FLMultiSelectTableView" */;
+			buildPhases = (
+				0A44A12AC280336C7AF641F7AA1CBE0E /* Headers */,
+				DD2DD13914FB2E31B7D159697EB4B67A /* Sources */,
+				F7C9263A88154DC91586549AB0E84234 /* Frameworks */,
+				646B673BA2C57BF975FCC36CA05C4EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLMultiSelectTableView;
+			productName = FLMultiSelectTableView;
+			productReference = D86D0DBA386874B2296359110E82759D /* FLMultiSelectTableView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 769332D794F1B0DFDB4EAC0635EA6E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E332D523C4792D476DBDFB720F556F53 /* FLMultiSelectTableView */,
+				DB13E582A1B93640D6916CCF7AF9C679 /* Pods-FLMultiSelectTableView_Example */,
+				7702C861F31FF1BCCB870936086BF81C /* Pods-FLMultiSelectTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3B54A73CBB40653BF2A753FD7FBE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646B673BA2C57BF975FCC36CA05C4EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B393EDD3A68FD437554C8CC05DAAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B85FB24225D80A1BFAE9E0F073E776BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61A3EC85A864AA0AFBEFA06C3D50734 /* Pods-FLMultiSelectTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2DD13914FB2E31B7D159697EB4B67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5CFC7AE12280FE655DFF410EF652F4 /* FLMultiSelectTableView-dummy.m in Sources */,
+				A0098FD00288F4633D4C952FBF91D2B8 /* ReplaceMe.m in Sources */,
+				FFD75E4AD3C4A7A6D52C543B9C7D1ECA /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C774BF4482E4EFCA225AA1E3989D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D000404C21CEE0DEF5661E8CB426A12 /* Pods-FLMultiSelectTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2D031555A10450200E72B6FD85A9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLMultiSelectTableView;
+			target = E332D523C4792D476DBDFB720F556F53 /* FLMultiSelectTableView */;
+			targetProxy = 8ACB7D17B354E834AFE8B440C9F299A0 /* PBXContainerItemProxy */;
+		};
+		C74A4A4E3E55C072184140BB6750DA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FLMultiSelectTableView_Example";
+			target = DB13E582A1B93640D6916CCF7AF9C679 /* Pods-FLMultiSelectTableView_Example */;
+			targetProxy = 52772C6DC0EC5C0C93D3C14728994A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D54BEC4F90DB0864D9BCCE419441C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E291810DA9423EDE8846C4094AA848DC /* Pods-FLMultiSelectTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Example/Pods-FLMultiSelectTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Example/Pods-FLMultiSelectTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E9D845E90436241A54A3A9977DE0BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B657224A69EAEE1274C35BC08721381E /* FLMultiSelectTableView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView.modulemap";
+				PRODUCT_MODULE_NAME = FLMultiSelectTableView;
+				PRODUCT_NAME = FLMultiSelectTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		751130A6E5299E1D082336C5B467264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3C89EAA46453F41D6C6DE871EC9A12 /* Pods-FLMultiSelectTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9ACF9CFC6B50FD6880F58CAA30D9B697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20060645ED7EF4EC3EA483CF6B3C4042 /* Pods-FLMultiSelectTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Example/Pods-FLMultiSelectTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Example/Pods-FLMultiSelectTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAE77B72BE1F5328461CBA887952D4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831530DE9E470995E5EC7CE5CD4961BE /* Pods-FLMultiSelectTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLMultiSelectTableView_Tests/Pods-FLMultiSelectTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF1F5D8DC29ECFC8005B22F2D1D1ED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F268255DE86984A0E9644A4BCC1EF6 /* FLMultiSelectTableView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLMultiSelectTableView/FLMultiSelectTableView.modulemap";
+				PRODUCT_MODULE_NAME = FLMultiSelectTableView;
+				PRODUCT_NAME = FLMultiSelectTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2577D26DFA1DACA0D6E6CEAD666202E /* Build configuration list for PBXNativeTarget "Pods-FLMultiSelectTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE77B72BE1F5328461CBA887952D4BB /* Debug */,
+				751130A6E5299E1D082336C5B467264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9B8AAB3519E5E806D6C113E55F9830 /* Build configuration list for PBXNativeTarget "Pods-FLMultiSelectTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D54BEC4F90DB0864D9BCCE419441C72 /* Debug */,
+				9ACF9CFC6B50FD6880F58CAA30D9B697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D486902A4E1DB1B581BF1C67BD18E27F /* Build configuration list for PBXNativeTarget "FLMultiSelectTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F5D8DC29ECFC8005B22F2D1D1ED54 /* Debug */,
+				3E9D845E90436241A54A3A9977DE0BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FLMultiSelectTableView (0.1.0)
+
+DEPENDENCIES:
+  - FLMultiSelectTableView (from `../`)
+
+EXTERNAL SOURCES:
+  FLMultiSelectTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLMultiSelectTableView: 42f8f87e43025c56bb4a70a8c43a30c9c7084597
+
+PODFILE CHECKSUM: 9b3f5bd79c097a236d4fda4da0b2c4a5b890df59
+
+COCOAPODS: 1.11.3

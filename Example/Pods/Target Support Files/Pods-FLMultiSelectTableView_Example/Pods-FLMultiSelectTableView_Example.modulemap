@@ -1,0 +1,6 @@
+framework module Pods_FLMultiSelectTableView_Example {
+  umbrella header "Pods-FLMultiSelectTableView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
