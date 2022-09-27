@@ -208,7 +208,24 @@
 
 - (void)requestDate {
     
-   
+    if (!_noDataView && _pageIndex == 1) {
+//        ASHWeakSelf;
+        self.noDataView = [[NSBundle mainBundle] loadNibNamed:@"PatientLeftNoDataView" owner:self options:nil].lastObject;
+        self.noDataView.noTiRefresh = ^{
+//            weakSelf.searchBar.text = @"";
+//            weakSelf.pageIndex = 1;
+//            weakSelf.hospitalStr = @"";
+//            weakSelf.searchStr = @"";
+//            weakSelf.isAddPatient = YES;
+//            //清除检索中心的数据
+//            [weakSelf.screenView clearAllSelections];
+//
+//            [weakSelf requestDate];
+        };
+        self.noDataView.frame = _lastRect;
+        [self addSubview:self.noDataView];
+    }
+    
 //    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
 //
 //    [HttpTools Get:ASHUrl(ASHPatientListString1) parameters:dict success:^(id responseObject) {
