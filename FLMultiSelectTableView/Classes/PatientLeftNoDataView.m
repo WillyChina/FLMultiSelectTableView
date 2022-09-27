@@ -1,6 +1,6 @@
 //
 //  PatientLeftNoDataView.m
-//  91Trial_iPad
+//  PatientLeftNoDataView
 //
 //  Created by liweiwei on 2022/8/17.
 //
@@ -19,11 +19,11 @@
 
 - (void)awakeFromNib{
     [super awakeFromNib];
-    _freshTable.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-        if (self.noTiRefresh) {
-            self.noTiRefresh();
-        }
-    }];
+//    _freshTable.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+//        if (self.noTiRefresh) {
+//            self.noTiRefresh();
+//        }
+//    }];
 }
 
 @end

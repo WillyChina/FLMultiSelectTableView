@@ -1,6 +1,6 @@
 //
 //  PatientSelectTableCell.m
-//  91Trial_iPad
+//  PatientLeftNoDataView
 //
 //  Created by liweiwei on 2022/6/6.
 //
@@ -13,9 +13,9 @@
     _titleLab.text = model.Text;
     _selectBtn.hidden = !model.IsChoose;
     if (model.IsChoose) {
-        _titleLab.textColor = Color_hex(@"#4CC5CD");
+//        _titleLab.textColor = Color_hex(@"#4CC5CD");
     }else{
-        _titleLab.textColor = Color_hex(@"#595959");
+//        _titleLab.textColor = Color_hex(@"#595959");
     }
 }
 
@@ -23,9 +23,9 @@
     _titleLab.text = model.Name;
     _selectBtn.hidden = !model.IsChoose;
     if (model.IsChoose) {
-        _titleLab.textColor = Color_hex(@"#4CC5CD");
+//        _titleLab.textColor = Color_hex(@"#4CC5CD");
     }else{
-        _titleLab.textColor = Color_hex(@"#595959");
+//        _titleLab.textColor = Color_hex(@"#595959");
     }}
 
 

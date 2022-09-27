@@ -1,12 +1,15 @@
 //
 //  PatientSelectTableView.m
-//  91Trial_iPad
+//  PatientLeftNoDataView
 //
 //  Created by liweiwei on 2022/6/6.
 //
 
 #import "PatientSelectTableView.h"
 #import "PatientSelectTableCell.h"
+//颜色
+#define Color_hex(hexString)       [UIColor colorWithHexString:hexString]
+#define Color_hexA(hexString, a)   [UIColor colorWithHexString:hexString alpha:a]
 
 @interface PatientSelectTableView ()<UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
 @property (strong, nonatomic) UITableView *tableView;
@@ -73,12 +76,12 @@
 
     UIView *colorView = [[UIView alloc]init];
     colorView.frame = CGRectMake(20, 15, 2, 14);
-    colorView.backgroundColor = Color_hex(@"#4CC5CD");
+//    colorView.backgroundColor = Color_hex(@"#4CC5CD");
     [headerView addSubview:colorView];
 
     UILabel *sectionLabel = [[UILabel alloc] init];
     sectionLabel.frame = CGRectMake(28, 12, 80, 20);
-    sectionLabel.textColor = Color_hex(@"#595959");
+//    sectionLabel.textColor = Color_hex(@"#595959");
     sectionLabel.font = [UIFont systemFontOfSize:14];
     sectionLabel.text = self.sectionArr[section];
     [headerView addSubview:sectionLabel];
@@ -262,7 +265,7 @@
     [super layoutSubviews];
     CGRect tableFrame = self.bounds;
     tableFrame.origin.y = 62;
-    tableFrame.size.height = kScreenHeight-62-72;
+    tableFrame.size.height = [UIScreen mainScreen].bounds.size.height-62-72;
     self.tableView.frame = tableFrame;
 }
 - (UITableView *)tableView {
@@ -295,15 +298,14 @@
 
 -(void)awakeFromNib{
     [super awakeFromNib];
-    [ASHNoteCenter addObserver:self selector:@selector(backClick:) name:@"closeScreen" object:nil];
-    self.layer.shadowColor = Color_hexA(@"#000000", 0.2).CGColor;
+//    self.layer.shadowColor = Color_hexA(@"#000000", 0.2).CGColor;
     self.layer.shadowOffset = CGSizeMake(3, 0);
     self.layer.shadowOpacity = .5;
     
     
     self.clearBtn.layer.cornerRadius = 8;
     self.clearBtn.layer.borderWidth = 1;
-    self.clearBtn.layer.borderColor = Color_hex(@"#DCDEE0").CGColor;
+//    self.clearBtn.layer.borderColor = Color_hex(@"#DCDEE0").CGColor;
     
     self.sureBtn.layer.cornerRadius = 8;
 

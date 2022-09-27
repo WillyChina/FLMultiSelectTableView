@@ -1,6 +1,6 @@
 //
 //  PatientLeftNoDataView.h
-//  91Trial_iPad
+//  PatientLeftNoDataView
 //
 //  Created by liweiwei on 2022/8/17.
 //

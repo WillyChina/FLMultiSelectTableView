@@ -1,6 +1,6 @@
 //
 //  PatientSelectTableViewSmall.m
-//  91Trial_iPad
+//  PatientLeftNoDataView
 //
 //  Created by liweiwei on 2022/6/6.
 //
@@ -135,14 +135,14 @@
 -(void)awakeFromNib{
     [super awakeFromNib];
     
-    self.layer.shadowColor = Color_hexA(@"#000000", 0.2).CGColor;
+//    self.layer.shadowColor = Color_hexA(@"#000000", 0.2).CGColor;
     self.layer.shadowOffset = CGSizeMake(3, 0);
     self.layer.shadowOpacity = .5;
     
     
     self.clearBtn.layer.cornerRadius = 8;
     self.clearBtn.layer.borderWidth = 1;
-    self.clearBtn.layer.borderColor = Color_hex(@"#DCDEE0").CGColor;
+//    self.clearBtn.layer.borderColor = Color_hex(@"#DCDEE0").CGColor;
     
     self.sureBtn.layer.cornerRadius = 8;
 

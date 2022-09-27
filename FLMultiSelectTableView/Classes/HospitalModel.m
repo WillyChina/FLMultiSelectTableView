@@ -1,9 +1,8 @@
 //
 //  HospitalModel.m
-//  CR-HepB-MHD
+//  PatientLeftNoDataView
 //
-//  Created by it on 2018/12/20.
-//  Copyright © 2018年 peter.ye. All rights reserved.
+//  Created by liweiwei on 2022/8/17.
 //
 
 #import "HospitalModel.h"
